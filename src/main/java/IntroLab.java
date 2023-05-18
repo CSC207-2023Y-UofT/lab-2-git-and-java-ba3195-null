@@ -1,3 +1,5 @@
+package main.java;
+
 /**
  * This file contains a few exercises to familiarize you with Java.
  * <p>
@@ -59,7 +61,9 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(printLabMessage("Bonjour", "cheu1570", true,
+                "Good morning churchill it is now time for your morning " +
+                        "announcements"));
 
     }
 
