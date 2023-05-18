@@ -49,6 +49,11 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String wansophi() {
+        return printLabMessage("Hello", 
+        "Fencesitter who isn't adequately captured by the restrictive labels society is imposing", false , "")
+    }
+
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
@@ -59,7 +64,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(wansophi())
 
     }
 
