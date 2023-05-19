@@ -1,4 +1,3 @@
-package main.java;
 
 /**
  * This file contains a few exercises to familiarize you with Java.
@@ -51,6 +50,11 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String charlesCheung22() {
+        return printLabMessage("Bonjour", "cheu1570", true,
+                "Good morning churchill, it is now time for your morning " +
+                        "announcements");
+    }
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
@@ -61,10 +65,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-        System.out.println(printLabMessage("Bonjour", "cheu1570", true,
-                "Good morning churchill it is now time for your morning " +
-                        "announcements"));
-
+        System.out.println(charlesCheung22());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.

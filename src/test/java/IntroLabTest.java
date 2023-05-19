@@ -1,9 +1,3 @@
-/*
- * This file contains JUnit test cases for IntroLab.java
- *
- * Complete the TODO in this file!
- */
-
 import org.junit.*;
 
 import static org.junit.Assert.*;
@@ -30,4 +24,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 10)
+    public void testCharlesCheung22() {
+        String expected = "Hello! My name is cheu1570! " +
+                "Good morning churchill, it is now time for your morning " +
+                "announcements";
+        String actual = IntroLab.CharlesCheung22();
+        assertEquals(expected, actual);
+    }
 }
