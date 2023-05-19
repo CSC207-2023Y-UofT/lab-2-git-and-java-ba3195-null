@@ -5,7 +5,9 @@
  * are labelled with TODO!
  */
 
+
 public class IntroLab {
+
 
     /**
      * Returns a message depending on the given greeting, name, message, and
@@ -21,8 +23,9 @@ public class IntroLab {
      * @return A message using the given parameters.
      */
     public static String printLabMessage(String greeting, String name,
-                                  boolean likes_cats, String message) {
+                                         boolean likes_cats, String message) {
         String message_to_print = greeting + "! My name is " + name + "! ";
+
 
         if (likes_cats) {
             message_to_print += "I like cats more than dogs! ";
@@ -30,8 +33,10 @@ public class IntroLab {
             message_to_print += "I like dogs more than cats! ";
         }
 
+
         return message_to_print + message;
     }
+
 
     /* TODO: In the space below, write your our method.
      *       The method should be named with your utorID and should call
@@ -40,6 +45,7 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+
 
     /**
      * An example method that calls on printLabMessage.
@@ -50,8 +56,15 @@ public class IntroLab {
     }
 
 
+    public static String leezoey() {
+        return printLabMessage("hello", "zoey lee", true, "draws makima on twitter");
+    }
+
+
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(leezoey());
+
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
@@ -61,8 +74,12 @@ public class IntroLab {
          */
 
 
+
+
     }
 
+
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
+
 
 }
