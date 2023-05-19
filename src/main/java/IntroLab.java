@@ -57,7 +57,7 @@ public class IntroLab {
 
 
     public static String leezoey() {
-        return printLabMessage("hello", "zoey lee", true, "draws makima on twitter");
+        return printLabMessage("Hello", "zoey lee", true, "draws makima on twitter");
     }
 
 
