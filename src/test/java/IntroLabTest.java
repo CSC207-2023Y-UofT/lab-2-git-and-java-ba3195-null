@@ -30,4 +30,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    public void testwansophi() {
+        String expected = "Hello! My name is " + 
+            "Fencesitter who isn't adequately captured by the restrictive labels society is imposing!" + 
+            "I like dogs more than cats!";
+        String actual = IntroLab.exampleStudent();
+        assertEquals(expected, actual);
+    }
 }
